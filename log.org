@@ -1,0 +1,18 @@
+#+TITLE:     log.org
+#+AUTHOR:    Ian Westrope
+#+EMAIL:     ian_westrope@Computer-1.local
+#+DATE:      2014-02-28 Fri
+#+DESCRIPTION:
+#+KEYWORDS:
+#+LANGUAGE:  en
+#+OPTIONS:   H:3 num:t toc:nil \n:nil @:t ::t |:t ^:t -:t f:t *:t <:t
+#+OPTIONS:   TeX:t LaTeX:t skip:nil d:nil todo:t pri:nil tags:not-in-toc
+#+INFOJS_OPT: view:nil toc:nil ltoc:t mouse:underline buttons:0 path:http://orgmode.org/org-info.js
+#+EXPORT_SELECT_TAGS: export
+#+EXPORT_EXCLUDE_TAGS: noexport
+#+LINK_UP:   
+#+LINK_HOME: 
+#+XSLT:
+
+* Programming Log
+- 2/28/14: :: Worked for about an hour and a half on the 3D API. Completed the DefineWindow, DefineViewport, and DefineFrame. Created a Point3D class so I can pass 3dPoint objects around, and started working on a Window3D class so I can have 3dWindow objects. 
