@@ -37,6 +37,22 @@ public class Window3D
 	W_zmax = zmax;
     }
 
+    public Window3D( double vxmin, double vymin, double vxmax, double vymax,
+		     Point3D min, Point max )
+    {
+	VP_xmin = vxmin;
+	VP_ymin = vymin;
+	VP_xmax = vxmax;
+	VP_ymax = vymax;
+
+	W_xmin = min.GetX();
+	W_ymin = min.GetY();
+	W_zmin = min.GetZ();
+	W_xmax = max.GetX();
+	W_ymax = max.GetY();
+	W_zmax = max.GetZ();
+    }
+
     public Window3D()
     {
 	VP_xmin = 0.0;
