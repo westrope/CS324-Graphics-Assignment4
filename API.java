@@ -76,3 +76,10 @@ public class API extends JComponent
     {
 
     }
+
+    public static Matrix PreMultiply()
+    {
+
+    }
+
+}
