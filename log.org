@@ -15,4 +15,4 @@
 #+XSLT:
 
 * Programming Log
-- 2/28/14: :: Worked for about an hour and a half on the 3D API. Completed the DefineWindow, DefineViewport, and DefineFrame. Created a Point3D class so I can pass 3dPoint objects around, and started working on a Window3D class so I can have 3dWindow objects. 
+- 2/28/14: :: Worked for about an hour and a half on the 3D API. Completed the DefineWindow, DefineViewport, and DefineFrame. Created a Point3D class so I can pass 3dPoint objects around, and started working on a Window3D class so I can have 3dWindow objects. Created a Matrix class to be used by the API that includes multiplying matrices.
