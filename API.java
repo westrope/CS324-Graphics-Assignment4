@@ -77,9 +77,26 @@ public class API extends JComponent
 
     }
 
-    public static Matrix PreMultiply()
+    public static Matrix PreMultiply( Matrix A, Matrix B)
     {
+	Matrix C = new Matrix();
+	
+	// for 4x4 matrices
+	int n = 4;
+	int m = 4;
 
+	for( int i = 0; i < 1; i++ )
+	{
+	    for( int j = 0; j < n; j++ )
+	    {
+		for( int k = 0; k < m; k++ )
+		{
+		    C[i][k] += A[i][k] * B[k][j];
+		}
+	    }
+	}
+
+	return C;
     }
 
 }
